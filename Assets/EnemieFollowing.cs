@@ -16,7 +16,7 @@ public class EnemieFollowing : MonoBehaviour
     [SerializeField] private Transform[] patrolPoints;
 
     [Header("Player Reference")]
-    [SerializeField] private HideInside playerHidingScript; // Arraste o Player aqui no Inspector! //
+    [SerializeField] private HideInside playerHidingScript;
 
     private Transform target;
     private Rigidbody2D rb;
